@@ -1,4 +1,5 @@
 #!/usr/local/bin/fish
+abbr -a -U -- erase not
 abbr -a -U -- g git
 abbr -a -U -- ga 'git add .'
 abbr -a -U -- gac 'git commit -am'
@@ -11,6 +12,8 @@ abbr -a -U -- gl 'git log --oneline --graph'
 abbr -a -U -- gmm 'git merge-main'
 abbr -a -U -- gs 'git status'
 abbr -a -U -- ip ipython
+abbr -a -U -- not 'echo doesnt do anything'
 abbr -a -U -- piup 'pip install --upgrade pip'
 abbr -a -U -- rb run-black
 abbr -a -U -- rp run-pylint
+abbr -a -U -- t retest
