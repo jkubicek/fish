@@ -34,12 +34,12 @@ function fish_prompt --description 'Write out the prompt'
         # initialize our new variables
         if not set -q __fish_classic_git_prompt_initialized
             set -qU fish_color_user
-            or set -U fish_color_user -o green
+            or set fish_color_user -o green
             set -qU fish_color_host
-            or set -U fish_color_host -o cyan
+            or set fish_color_host -o cyan
             set -qU fish_color_status
-            or set -U fish_color_status red
-            set -U __fish_classic_git_prompt_initialized
+            or set fish_color_status red
+            set __fish_classic_git_prompt_initialized
         end
     end
 

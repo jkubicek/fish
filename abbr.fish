@@ -1,4 +1,4 @@
-#!/usr/local/bin/fish
+#!/usr/bin/env fish
 abbr -a -U -- erase not
 abbr -a -U -- g git
 abbr -a -U -- ga 'git add .'
