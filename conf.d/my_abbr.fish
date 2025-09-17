@@ -1,6 +1,4 @@
 # Add all your abbreviations here
-# Make sure your config.fish has the line
-#     fish abbr.fish
 
 abbr --add -- erase not
 abbr --add -- g git
